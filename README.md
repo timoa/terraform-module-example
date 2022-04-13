@@ -1,4 +1,9 @@
+
 # Terraform module template
+
+[![Latest Release][release-badge]][release-url]
+[![Build Status][github-badge]][github-url]
+[![License][license-badge]][license-url]
 
 A Terraform module uses as a template to start new Terraform module.
 
@@ -98,3 +103,10 @@ No modules.
 |------|-------------|
 | <a name="output_labels"></a> [labels](#output\_labels) | The generated labels |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+[github-badge]: https://github.com/timoa/terraform-module-template/workflows/Terraform/badge.svg
+[github-url]: https://github.com/timoa/terraform-module-template/actions?query=workflow%3ATerraform
+[release-badge]: https://img.shields.io/github/release/timoa/terraform-module-template.svg
+[release-url]: https://github.com/timoa/terraform-module-template/releases/latest
+[license-badge]: https://img.shields.io/github/license/timoa/terraform-module-template.svg
+[license-url]: https://github.com/timoa/terraform-module-template/blob/main/LICENSE
