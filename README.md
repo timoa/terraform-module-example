@@ -20,6 +20,45 @@ module "module-template" {
 }
 ```
 
+### Output example
+
+```bash
+terraform init
+terraform plan
+```
+
+```bash
+Terraform used the selected providers to generate the following execution
+plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # time_static.update will be created
+  + resource "time_static" "update" {
+      + day     = (known after apply)
+      + hour    = (known after apply)
+      + id      = (known after apply)
+      + minute  = (known after apply)
+      + month   = (known after apply)
+      + rfc3339 = (known after apply)
+      + second  = (known after apply)
+      + unix    = (known after apply)
+      + year    = (known after apply)
+    }
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + labels = {
+      + businessunit = "mycompany"
+      + environment  = "dev"
+      + project      = "my-project"
+      + team         = "devops"
+      + terraform    = "true"
+      + updated      = (known after apply)
+    }
+```
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
