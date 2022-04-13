@@ -15,7 +15,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@ed3a0531877aca392eb870f440d9ae7aba83a6bd # tag=v1.4.0
 
-      - name: Terraform fmt
+      - name: Terraform Format
         id: fmt
         run: terraform fmt -check
         continue-on-error: true
@@ -24,6 +24,9 @@ jobs:
         id: init
         run: terraform init
 
+      - name: Terraform Plan
+        id: apply
+        run: terraform plan
 
   # -- SAST SCAN --------------------------------------------------------------
   code-security:
