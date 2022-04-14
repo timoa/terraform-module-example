@@ -12,6 +12,6 @@ receiving such patches depend on the CVSS v3.0 Rating:
 
 ## Reporting a Vulnerability
 
-Please report (suspected) security vulnerabilities to **[issue board](https://github.com/timoa/terraform-module-template/issues)**
+Please report (suspected) security vulnerabilities to **[issue board](https://github.com/timoa/terraform-module-example/issues)**
 with the label **vulnerability**. If the issue is confirmed, we will release a patch as soon as possible depending on complexity,
 but historically within a few days.
