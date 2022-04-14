@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/timoa/terraform-module-example/compare/v0.2.1...v0.2.2) (2022-04-14)
+
+
+### Bug Fixes
+
+* **project:** change project name ([6ba7097](https://github.com/timoa/terraform-module-example/commit/6ba709785b6a10fb1f9ebec84dde5a93f36ce8c4))
+
 ## [0.2.1](https://github.com/timoa/terraform-module-example/compare/v0.2.0...v0.2.1) (2022-04-13)
 
 
