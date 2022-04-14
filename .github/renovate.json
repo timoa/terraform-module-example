@@ -27,10 +27,5 @@
       "separateMinorPatch": true,
       "stabilityDays": 7
     }
-  ],
-  "gitlabci": {
-    "fileMatch": [
-      "\\.gitlab-ci\\.yml$"
-    ]
-  }
+  ]
 }

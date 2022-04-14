@@ -59,6 +59,7 @@
       {
         "assets": [
           "CHANGELOG.md",
+          "USAGE.md",
           "README.md"
         ]
       }
