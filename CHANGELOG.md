@@ -1,3 +1,15 @@
+# [0.3.0](https://github.com/timoa/terraform-module-example/compare/v0.2.2...v0.3.0) (2022-04-14)
+
+
+### Bug Fixes
+
+* **cicd:** add missing checkout step + remove unused Renovate config ([60a8d87](https://github.com/timoa/terraform-module-example/commit/60a8d871e560d95e9f6e98f9aef3a55742adc318))
+
+
+### Features
+
+* **docs:** generate the documentation with CI/CD instead of pre-commit ([05b6135](https://github.com/timoa/terraform-module-example/commit/05b61351e7d4b62a2850a6035e62cc09f0c07f5c))
+
 ## [0.2.2](https://github.com/timoa/terraform-module-example/compare/v0.2.1...v0.2.2) (2022-04-14)
 
 
