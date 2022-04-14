@@ -52,12 +52,28 @@ jobs:
           name: reports
           path: reports
 
+  # -- DOCUMENTATION ----------------------------------------------------------
+  docs:
+    runs-on: ubuntu-latest
+    needs: tests
+
+    steps:
+      - name: Terraform Docs
+        uses: terraform-docs/gh-actions@v1.0.0
+        with:
+          working-dir: .
+          output-file: USAGE.md
+          output-method: inject
+          git-push: "true"
+          git-commit-message: "chore(docs): update Terraform docs"
+
   # -- RELEASE ----------------------------------------------------------------
   release:
     runs-on: ubuntu-latest
     needs:
       - tests
       - code-security
+      - docs
     if: github.ref == 'refs/heads/main'
 
     steps:
