@@ -24,14 +24,14 @@ jobs:
         run: |
           terraform init
 
-      # Minimal example
-      - name: tflint
-        uses: reviewdog/action-tflint@master
+      # Run TFLint
+      - name: tflint with reviewdog output on the PR
+        uses: reviewdog/action-tflint@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      # More complex example
-      - name: tflint
-        uses: reviewdog/action-tflint@master
+      # Run TFSec
+      - name: Run tfsec with reviewdog output on the PR
+        uses: reviewdog/action-tfsec@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
