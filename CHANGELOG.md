@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/timoa/terraform-module-example/compare/v0.3.0...v0.3.1) (2022-04-17)
+
+
+### Bug Fixes
+
+* **cicd:** fix the code review workflow + rename files ([6785bda](https://github.com/timoa/terraform-module-example/commit/6785bda71080bfae1307fca625d380bedba32d3d))
+
 # [0.3.0](https://github.com/timoa/terraform-module-example/compare/v0.2.2...v0.3.0) (2022-04-14)
 
 
