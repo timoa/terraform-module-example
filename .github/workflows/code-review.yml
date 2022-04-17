@@ -3,13 +3,15 @@ name: reviewdog
 on: [pull_request]
 
 jobs:
+
+  # -- LINT -------------------------------------------------------------------
   tflint:
     name: runner / tflint
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repo
-        uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v3
 
       # Install latest Terraform manually as
       #  Docker-based GitHub Actions are
@@ -29,6 +31,15 @@ jobs:
         uses: reviewdog/action-tflint@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  # -- SECURITY ---------------------------------------------------------------
+  tfsec:
+    name: runner / tfsec
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v3
 
       # Run TFSec
       - name: Run tfsec with reviewdog output on the PR
