@@ -43,6 +43,6 @@ jobs:
 
       # Run TFSec
       - name: Run tfsec with reviewdog output on the PR
-        uses: reviewdog/action-tfsec@v1
+        uses: reviewdog/action-tfsec@1f6d9e763be79aed3128bc23efaead45d7e11430 # tag=v1.14.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
