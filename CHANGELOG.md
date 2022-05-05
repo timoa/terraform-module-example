@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/timoa/terraform-module-example/compare/v0.3.1...v0.3.2) (2022-05-05)
+
+
+### Bug Fixes
+
+* **cicd:** force checkout of the main branch during release to get latest changes ([72ea7ed](https://github.com/timoa/terraform-module-example/commit/72ea7ede248555638aeba501a16656b8e7962d3d))
+
 ## [0.3.1](https://github.com/timoa/terraform-module-example/compare/v0.3.0...v0.3.1) (2022-04-17)
 
 
