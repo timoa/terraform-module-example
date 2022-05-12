@@ -11,6 +11,7 @@ It includes all the module automation (versioning, providers update, lint, secur
 
 * [Pre-commit][pre-commit-url]: enforce checks on the module before commit
 * [Semantic Release][semantic-release-url]: automate the release and version process
+* [Reviewdog][reviewdog-url]: automate the review process with per code line comments (TFLint & TFSec checks)
 * [Renovate][renovate-url]: automate the dependency management (update provider version, etc.)
 * [ShiftLeft SCAN][shiftleft-scan-url]: security audit tool to detect security flaws in application and infrastructure code
 
@@ -74,5 +75,6 @@ Changes to Outputs:
 [license-url]: https://github.com/timoa/terraform-module-example/blob/main/LICENSE
 [pre-commit-url]: https://pre-commit.com/
 [semantic-release-url]: https://semantic-release.gitbook.io/semantic-release/
+[reviewdog-url]: https://github.com/reviewdog/reviewdog
 [renovate-url]: https://www.whitesourcesoftware.com/free-developer-tools/renovate/
 [shiftleft-scan-url]: https://shiftleft.io/docs/scan/
