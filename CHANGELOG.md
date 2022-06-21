@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/timoa/terraform-module-example/compare/v0.3.3...v0.3.4) (2022-06-21)
+
+
+### Bug Fixes
+
+* **cicd:** update the label name for the dependencies ([3c3ca8a](https://github.com/timoa/terraform-module-example/commit/3c3ca8a2558bcf05860f89f8547528501cf93dbf))
+
 ## [0.3.3](https://github.com/timoa/terraform-module-example/compare/v0.3.2...v0.3.3) (2022-05-12)
 
 ## [0.3.2](https://github.com/timoa/terraform-module-example/compare/v0.3.1...v0.3.2) (2022-05-05)
