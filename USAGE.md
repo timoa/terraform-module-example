@@ -4,7 +4,7 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_time"></a> [time](#requirement\_time) | 0.7.2 |
+| <a name="requirement_time"></a> [time](#requirement\_time) | 0.8.0 |
 
 ## Modules
 
@@ -14,7 +14,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [time_static.update](https://registry.terraform.io/providers/hashicorp/time/0.7.2/docs/resources/static) | resource |
+| [time_static.update](https://registry.terraform.io/providers/hashicorp/time/0.8.0/docs/resources/static) | resource |
 
 ## Inputs
 
