@@ -1,3 +1,10 @@
+## [0.3.5](https://github.com/timoa/terraform-module-example/compare/v0.3.4...v0.3.5) (2023-04-17)
+
+
+### Bug Fixes
+
+* **cicd:** fix Terraform install ([6024e74](https://github.com/timoa/terraform-module-example/commit/6024e74cbb50de5e62e5dfbd075e11f95714e4c1))
+
 ## [0.3.4](https://github.com/timoa/terraform-module-example/compare/v0.3.3...v0.3.4) (2022-06-21)
 
 
